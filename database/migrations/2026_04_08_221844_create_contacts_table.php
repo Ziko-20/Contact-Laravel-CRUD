@@ -18,6 +18,7 @@ return new class extends Migration
             $table->string('nom_du_contact');
             $table->string('email')->unique();
             $table->string('telephone');
+            
             $table->timestamps();
         });
     }
